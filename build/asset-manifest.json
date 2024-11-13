@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/ii-and-robots/static/css/main.31d6cfe0.css",
+    "main.js": "/ii-and-robots/static/js/main.b28b7c2b.js",
+    "index.html": "/ii-and-robots/index.html",
+    "main.b28b7c2b.js.map": "/ii-and-robots/static/js/main.b28b7c2b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.b28b7c2b.js"
+  ]
+}

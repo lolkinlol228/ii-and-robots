@@ -1,0 +1,170 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+   /* Стили для header */
+   header {
+    @apply bg-gradient-to-r from-green-50 to-white relative overflow-hidden;
+  }
+  
+  header .content {
+    @apply max-w-7xl mx-auto px-4 py-16 relative z-10;
+  }
+  
+  /* Стили для навигации */
+  nav {
+    @apply fixed top-0 w-full bg-white/80 backdrop-blur-md shadow-sm z-50;
+  }
+  
+  nav .content {
+    @apply max-w-7xl mx-auto px-4 flex justify-between items-center h-16;
+  }
+  
+  nav a {
+    @apply text-gray-600 hover:text-green-600 transition-colors duration-200;
+  }
+  
+  /* Общие стили для секций */
+  section {
+    @apply py-16 px-4;
+  }
+  
+  section .content {
+    @apply max-w-7xl mx-auto;
+  }
+  
+  /* Стили для секции summary */
+  #summary {
+    @apply bg-gradient-to-br from-green-50 to-blue-50;
+  }
+  
+  #summary .content {
+    @apply grid md:grid-cols-2 gap-8 items-center;
+  }
+  
+  /* Стили для секции history */
+  #history {
+    @apply bg-white;
+  }
+  
+  #history .timeline {
+    @apply space-y-8;
+  }
+  
+  /* Стили для секции development */
+  #development {
+    @apply bg-gray-50;
+  }
+  
+  #development h3 {
+    @apply flex items-center space-x-2 text-xl font-semibold mb-4;
+  }
+  
+  /* Стили для секции robot-types */
+  #robot-types {
+    @apply bg-white;
+  }
+  
+  #robot-types .grid {
+    @apply grid md:grid-cols-3 gap-6;
+  }
+  
+  #robot-types .card {
+    @apply bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-200;
+  }
+  
+  /* Стили для секции ai-types */
+  #ai-types {
+    @apply bg-gray-50;
+  }
+  
+  #ai-types .card {
+    @apply bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200;
+  }
+  
+  /* Стили для секции applications */
+  #applications {
+    @apply bg-white;
+  }
+  
+  #applications .grid {
+    @apply grid md:grid-cols-2 lg:grid-cols-3 gap-8;
+  }
+  
+  /* Стили для секции ethics */
+  #ethics {
+    @apply bg-gradient-to-br from-gray-50 to-green-50;
+  }
+  
+  /* Стили для секции impact-on-society */
+  #impact-on-society {
+    @apply bg-white;
+  }
+  
+  /* Стили для секции future-trends */
+  #future-trends {
+    @apply bg-gray-50;
+  }
+  
+  #future-trends .grid {
+    @apply grid md:grid-cols-2 lg:grid-cols-3 gap-6;
+  }
+  
+  /* Стили для секции references */
+  #references {
+    @apply bg-white;
+  }
+  
+  #references .grid {
+    @apply grid md:grid-cols-2 gap-8;
+  }
+  
+  /* Общие стили для текста */
+  h1 {
+    @apply text-4xl md:text-5xl font-bold text-gray-800 mb-6;
+  }
+  
+  h2 {
+    @apply text-3xl font-bold text-gray-800 mb-8;
+  }
+  
+  h3 {
+    @apply text-xl font-semibold text-gray-800 mb-4;
+  }
+  
+  p {
+    @apply text-gray-600 leading-relaxed;
+  }
+  
+  /* Стили для карточек */
+  .card {
+    @apply bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200;
+  }
+  
+  /* Анимации появления элементов */
+  .fade-in {
+    @apply opacity-0 translate-y-4 transition-all duration-700;
+  }
+  
+  .fade-in.visible {
+    @apply opacity-100 translate-y-0;
+  }
+  
+  /* Стили для ссылок */
+  a {
+    @apply text-green-600 hover:text-green-700 transition-colors duration-200;
+  }
+  
+  /* Стили для кнопок */
+  button {
+    @apply bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition-colors duration-200;
+  }
+  
+  /* Стили для списков */
+  ul, ol {
+    @apply space-y-2;
+  }
+  
+  li {
+    @apply text-gray-600;
+  }
