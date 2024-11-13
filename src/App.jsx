@@ -4,15 +4,7 @@ import {
   Shield, TrendingUp, Moon, Sun, ArrowUp,
   Link, Computer, Code, Lightbulb, Quote
 } from 'lucide-react';
-import { Card, CardContent } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Alert, AlertDescription } from '@/components/ui/alert';
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from '@/components/ui/tooltip';
+
 
 const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
